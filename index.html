@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Share Content Card Component - FrontendPro Challenge</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="share-card">
+      <div class="content">
+        <h1>Share this challenge</h1>
+        <div class="socials-icons" id="socials-icons">
+          <div class="social" onclick="setActiveDiv('twitter')" id="twitter">
+            <img src="twitter.svg" />
+          </div>
+          <div class="social" onclick="setActiveDiv('linkedin')" id="linkedin">
+            <img src="linkedin.svg" />
+          </div>
+          <div class="social" onclick="setActiveDiv('fb')" id="fb">
+            <img src="fb.svg" />
+          </div>
+          <div class="social" onclick="setActiveDiv('insta')" id="insta">
+            <img src="insta.svg" />
+          </div>
+          <div class="social" onclick="setActiveDiv('pin')" id="pin">
+            <img src="pin.svg" />
+          </div>
+          <div class="social" onclick="setActiveDiv('telegram')" id="telegram">
+            <img src="telegram.svg" />
+          </div>
+        </div>
+        <div class="link">
+          <p class="copy-link">or copy this link</p>
+          <div class="link-input">
+            <input
+              type="text"
+              value="https://www.frontendpro.dev/challenge/WgPLB3f5dCRSIda2s77V"
+              id="copy-input"
+            />
+            <button class="button" onclick="copyToClipboard()">Copy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
