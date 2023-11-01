@@ -13,6 +13,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  padding: 3em;
 }
 
 .share-card {
@@ -178,6 +179,13 @@ h1 {
   }
   h1 {
     font-size: 24px;
+  }
+  .socials-icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 8px;
+    justify-items: center;
   }
   .social {
     width: 44px;
