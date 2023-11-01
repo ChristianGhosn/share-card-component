@@ -133,6 +133,9 @@ h1 {
     width: 32px;
     height: 32px;
   }
+  .link-input input {
+    padding: 16px;
+  }
   .copy-link {
     font-size: 16px;
   }
@@ -157,10 +160,40 @@ h1 {
     width: 28px;
     height: 28px;
   }
+  .link-input input {
+    padding: 14px;
+  }
   .copy-link {
     font-size: 14px;
   }
   .button {
     font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .share-card {
+    width: 400px;
+    height: 340px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  .social {
+    width: 44px;
+    height: 44px;
+  }
+  .social img {
+    width: 20px;
+    height: 20px;
+  }
+  .link-input input {
+    padding: 12px;
+  }
+  .copy-link {
+    font-size: 12px;
+  }
+  .button {
+    font-size: 10px;
   }
 }
